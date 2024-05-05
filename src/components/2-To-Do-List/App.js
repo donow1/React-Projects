@@ -3,8 +3,11 @@ import Input from './Input';
 import Board from "./Board";
 
 function App() {
+
   const[taskList, setTaskList] = useState([])
   console.log({taskList});
+
+
   return (
     <div className="px-12"> 
       <div className="flex flex-col items-center justify-center py-8 gap-4">        
@@ -25,6 +28,11 @@ function App() {
            />
         )}
       </div>
+      {/* Questions about Board component:
+      1 about map(), where are the parameters in the () from? 
+      2 How does the application know the index is the index rather than other kind of type of varialbes?
+      
+       */}
     </div>
   );
 }

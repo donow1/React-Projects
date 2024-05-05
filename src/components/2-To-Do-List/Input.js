@@ -1,12 +1,21 @@
 import React, { useState } from "react";
 
 const Input = ({taskList, setTaskList})=>{
+
     const[input, setInput] = useState("")
+
+
     const handleAddTask = (e)=>{
         e.preventDefault();
         setTaskList([...taskList, input]);
         setInput("");
     }
+//Questions about function handleAddTask:
+// why do we need "e"?
+//in setTaskList([...taskList, input]); what do "...taskList" and "input" stand for?
+// what kind of value does "handleAddTask" create/pass? to whom?
+
+
     return (
         <form className="flex flex-row items-center gap-3">
             <input
@@ -27,4 +36,14 @@ const Input = ({taskList, setTaskList})=>{
     );
 }
 export default Input;
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "bf22",
+      "productName": "gogo",
+      "price": "33",
+      "type": "toy",
+      "brand": "pawsitive"
+    },
+    {
+      "id": "9478",
+      "productName": "zine pills",
+      "price": "2",
+      "type": "med",
+      "brand": "life good"
+    },
+    {
+      "id": "20b8",
+      "productName": "fishing rod",
+      "price": "51",
+      "type": "tool",
+      "brand": "good time"
+    }
+  ]
+}

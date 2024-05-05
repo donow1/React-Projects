@@ -3,8 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css'
 import reportWebVitals from './reportWebVitals';
 
+//Tim's class
+// import App from './components/a-0-Tim-React-Learning-Projects/App';
+
+//Indian Guy Class
+// import App from './components/b-Indian-Guy-React-Class/App';
+
 // import App from './components/StopWatch/App'
-import App from './components/To-Do-List/App'
+// import App from './components/2-To-Do-List/App';
+import App from './components/3-Task-Tracker/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
